@@ -85,11 +85,10 @@ section>div {
     grid-template-rows: 1fr 1fr;
     gap: 5%;
     background-color: #c7c7c7;
-    width: 816px;
-    height: 1000px;
+    width: 612pt;
+    height: 750pt;
     padding: 20px;
     box-sizing: border-box;
-    overflow: auto;
     border-radius: 12px;
 }
 
