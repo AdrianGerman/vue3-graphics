@@ -1,14 +1,17 @@
 <template>
     <main>
-
         <section class="graphic-1">
             <h1>titulo principal de la paella</h1>
             <b>el perro que baila</b>
+
             <p class="elpe">
                 <span>sitos: 39</span>
                 <span>enlaces: 23</span>
+
             </p>
-            <Bar id="my-chart-id" :options="chartOptions" :data="chartData" />
+            <div class="bar-chart-container">
+                <Bar id="my-chart-id" :options="chartOptions" :data="chartData" />
+            </div>
         </section>
 
         <section class="graphic-2">
@@ -27,7 +30,6 @@
                 <Doughnut id="my-doughnut-chart-2" :options="options" :data="data" />
             </div>
         </section>
-
     </main>
 </template>
 
@@ -84,6 +86,7 @@ main {
     height: 1000px;
     padding: 20px;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 .graphic-1 {
@@ -93,6 +96,10 @@ main {
     align-items: center;
     text-align: center;
     gap: 1rem;
+}
+
+.bar-chart-container {
+    width: 600px;
 }
 
 .elpe span {
