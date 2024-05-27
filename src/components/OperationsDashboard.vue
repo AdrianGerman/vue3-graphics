@@ -75,6 +75,10 @@ section>div {
     height: 300px;
 }
 
+.bar-chart-container {
+    width: 600px;
+}
+
 /* lo mio papu */
 
 main {
@@ -96,10 +100,6 @@ main {
     align-items: center;
     text-align: center;
     gap: 1rem;
-}
-
-.bar-chart-container {
-    width: 600px;
 }
 
 .elpe span {
