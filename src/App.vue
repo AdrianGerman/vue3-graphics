@@ -1,11 +1,12 @@
 <template>
   <OperationsDashboard />
-  <!-- <NewDashboard /> -->
+  <br>
+  <NewDashboard />
 </template>
 
 <script setup>
 import OperationsDashboard from './components/OperationsDashboard.vue'
-// import NewDashboard from './components/NewDashboard.vue'
+import NewDashboard from './components/NewDashboard.vue'
 </script>
 
 

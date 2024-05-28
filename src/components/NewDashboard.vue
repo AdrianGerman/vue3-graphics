@@ -64,10 +64,10 @@ const options = {
 
 <style scoped>
 /* Estilos de las graficas ignora o eres musulman */
-section {
+/* section {
     display: flex;
     justify-content: space-around;
-}
+} */
 
 section>div {
     width: 300px;
@@ -92,7 +92,7 @@ section>div {
     border-radius: 12px;
 }
 
-section .part1 {
+.part1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,9 +104,9 @@ section .part1 {
     justify-content: center;
 }
 
-/* section .part2 {
+.part2 {
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 </style>
