@@ -106,7 +106,6 @@ section {
 .bar-chart-container {
     width: 100%;
     max-width: 500px;
-    height: 300px;
 }
 
 .bar-chart-graph-line {
